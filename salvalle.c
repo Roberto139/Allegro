@@ -60,7 +60,7 @@ opyright (C) 2005, 2015 by Dr.Beco                                   *
                         exit(EXIT_FAILURE);
                                  }
                                  
-                        circle(buff, 160, 120, 100, CORAMARELO);
+                        circle(buff, 160, 120, 1000, CORAMARELO);
                         textprintf_ex(buff, font, 50, 50, CORVERDE, CORPRETO, "Teste do circulo.");
                                        
                         save_bitmap(IMAGENAME, buff, pal);
